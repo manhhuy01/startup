@@ -1,0 +1,14 @@
+body{
+     background: white;
+}
+.card {
+    height: 106px;
+    width: 80px;
+}
+.container-tag{
+    margin: 0 auto;
+}
+.content{
+    width: 300px;
+    margin: 0 auto;
+}
