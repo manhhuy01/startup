@@ -1,14 +1,41 @@
 body{
-     background: white;
+    margin: 0px;
 }
-.card {
-    height: 106px;
-    width: 80px;
+.title-container{
+    height: calc(100vh - 200px);
+    background-image: url(https://startupbizhcm.files.wordpress.com/2017/06/cropped-img_98692_2.jpg);
+    background-position: center;
+    background-size: cover;
 }
-.container-tag{
-    margin: 0 auto;
+.title-container::before{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    content: "";
 }
-.content{
-    width: 300px;
-    margin: 0 auto;
+.title-content{
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 4.5rem;
+    max-width: calc(1200px - 1em);
+    position: relative;
+    text-align: center;
+    font-family: "Black Han Sans";
+    text-transform: uppercase;
+}
+@media screen and (min-width: 60em){
+    .title-content{
+        max-width: 600px;
+        font-size: 4.5rem;
+    }
+}
+
+.body-container{
+    background: white;
+    padding: 0px 200px;
+    position: relative;
 }
